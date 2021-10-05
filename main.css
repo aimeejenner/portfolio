@@ -12,6 +12,28 @@ a:visited {
   text-decoration: none;
 }
 
+.navigation {
+  height: 10vh;
+  background-color: #A8DADC;
+  padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  max-height: 25px;
+  padding: 2px;
+}
+
+.nav-links__link {
+  color: #E63946;
+  text-align: center;
+  padding: 5px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
 .header {
   height: 80vh;
   display: flex;
@@ -23,4 +45,40 @@ a:visited {
 .profile {
   min-height: 50vh;
   background-color: #A8DADC;
+}
+
+.project-details {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.project-details__project {
+  height: 300px;
+  width: 300px;
+  padding: 10px 50px 10px 50px;
+  border: 10px solid #A8DADC;
+  border-radius: 10px;
+}
+
+.contact {
+  height: 50vh;
+  background-color: #D8F1D0;
+}
+
+.contact-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.contact-details__icon {
+  padding-left: 20px;
+}
+
+.footer {
+  height: 5px;
+  text-align: center;
+  background-color: #fafafa;
+  padding: 0 0 100px 0;
 }

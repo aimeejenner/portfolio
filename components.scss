@@ -1,0 +1,23 @@
+.navigation {
+    height: 10vh;
+    background-color: $color-primary;
+    padding: 0 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    max-height: 25px;
+    padding: 2px;
+}
+
+.nav-links {
+    &__link {
+        color: $color-contrast;
+        text-align: center;
+        padding: 5px;
+        font-size: 12px;
+        font-weight: 700;
+    }
+}
