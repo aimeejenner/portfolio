@@ -1,0 +1,12 @@
+.header {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+.profile {
+  min-height: 50vh;
+  background-color: $color-primary;
+}

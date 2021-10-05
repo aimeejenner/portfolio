@@ -11,3 +11,16 @@ a:link,
 a:visited {
   text-decoration: none;
 }
+
+.header {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile {
+  min-height: 50vh;
+  background-color: #A8DADC;
+}
