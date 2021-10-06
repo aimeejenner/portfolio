@@ -92,3 +92,21 @@ i, .scroll {
         max-height: 50px;
     }
 }
+
+.profile {
+    &__heading {
+        font-family: $font-heading;
+        color: $color-heading;
+        font-size: 30px;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+
+    &__body {
+        font-family: $font-body;
+        color: $color-black;
+        font-size: 14px;
+        text-align: center;
+        padding: 10px 50px 10px 50px;
+    }
+}
