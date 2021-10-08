@@ -110,3 +110,25 @@ i, .scroll {
         padding: 10px 50px 10px 50px;
     }
 }
+
+.projects {
+    &__heading {
+        font-family: $font-heading;
+        color: $color-heading;
+        font-size: 30px;
+        text-align: center;
+        padding-bottom: 50px;
+        background-color: $color-white;
+    }
+}
+
+.contact {
+    &__heading {
+        font-family: $font-heading;
+        color: $color-heading;
+        font-size: 30px;
+        text-align: center;
+        padding-bottom: 50px;
+        background-color: $color-secondary;
+    }
+}

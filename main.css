@@ -34,6 +34,89 @@ a:visited {
   font-weight: 700;
 }
 
+.intro {
+  text-align: center;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  background-color: #D8F1D0;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.intro__heading {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #1D3557;
+  font-size: 40px;
+}
+.intro__sub-heading {
+  font-family: "Montserrat", sans-serif;
+  color: #1D3557;
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+i, .scroll {
+  color: #E63946;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.wave1 {
+  vertical-align: bottom;
+  fill-opacity: 1;
+  fill: #A8DADC;
+}
+
+.wave2 {
+  vertical-align: bottom;
+  fill-opacity: 1;
+  fill: #fafafa;
+  background-color: #A8DADC;
+}
+
+.wave3 {
+  vertical-align: bottom;
+  fill-opacity: 1;
+  fill: #D8F1D0;
+  background-color: #fafafa;
+}
+
+.wave4 {
+  vertical-align: bottom;
+  fill-opacity: 1;
+  fill: #fafafa;
+  background-color: #D8F1D0;
+}
+
+.section-header {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.section-header .circles {
+  max-height: 50px;
+}
+
+.profile__heading {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #1D3557;
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+.profile__body {
+  font-family: "Montserrat", sans-serif;
+  color: #061423;
+  font-size: 14px;
+  text-align: center;
+  padding: 10px 50px 10px 50px;
+}
+
 .header {
   height: 80vh;
   display: flex;
